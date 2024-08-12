@@ -178,6 +178,7 @@ grid-template-columns: repeat(4, 1fr);
 justify-content: center;
 align-items: center;
 text-align: center;
+padding: 2rem;
 }
 .change-container{
   max-width: 1200px;
