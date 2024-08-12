@@ -181,6 +181,14 @@ text-align: center;
 }
 .change-container{
   max-width: 1200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.change-content{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
