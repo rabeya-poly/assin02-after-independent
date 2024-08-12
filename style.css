@@ -55,7 +55,7 @@ font-size: 1rem;
   justify-content: space-around;
   gap: 1rem;
   padding: 10px;
-  background-image: linear-gradient(rgb(40, 39, 39));
+  background: linear-gradient(135deg,rgb(50, 48, 48),rgb(21, 20, 20));
   border-radius: 0.5rem;
   border: 1px solid rgb(82, 79, 79);
 
@@ -92,4 +92,12 @@ font-size: 1.4rem;
 }
 .body-img img{
   width:20%;
+}
+.btn3{
+  background: linear-gradient(135deg, rgb(255,255,255,0.1),rgb(255,255,255.0));
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border-radius: 10px;
+border: 1px solid rgb(255,255,255,0.18);
+box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.37);
 }
