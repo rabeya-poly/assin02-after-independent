@@ -25,6 +25,7 @@
 body{
   background-color: black;
   font-size: 16px;
+  color: white;
 }
  .btn{
 background-color:rgb(230,23,60,1) ;
@@ -32,6 +33,10 @@ color: white;
 border-radius: 5px;
 width: 50px;
 border: none;
+ }
+ .p1{
+ color:rgb(245, 222, 179);
+ font-size: 0.8rem;
  }
 /* header style */
 .header{
@@ -163,6 +168,20 @@ font-size: 2rem;
 .icon{
   display: none;
 }
+/* change style */
+.change-imge{
+border-radius: 7rem;
+}
+.change-card{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.change-container{
+  max-width: 1200px;
+}
 /* resposive for mobile */
 @media screen and (max-width: 575px){
   .nav-right{
@@ -189,4 +208,13 @@ font-size: 2rem;
     padding: 0;
     margin: 0;
   }
-}
+  .nai i{
+    display: flex;
+    position: relative;
+    left: 10px;
+    background: coral;
+    border: none;
+  }
+  .nai {
+    border: none;
+}}
