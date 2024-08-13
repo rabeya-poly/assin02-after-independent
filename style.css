@@ -226,4 +226,10 @@ padding: 2rem;
   }
   .nai {
     border: none;
-}}
+}
+.change-card{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+}
