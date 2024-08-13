@@ -336,6 +336,12 @@ border-radius: 20px;
   justify-content: space-around;
   margin-top: 40px;
  }
+ .foot-h1{
+  font-style: italic;
+  color: coral;
+  font-weight: 700;
+  font-size: 70px;
+ }
  .footer-last{
   margin-top: 40px;
   color: beige;
