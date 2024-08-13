@@ -334,6 +334,16 @@ border-radius: 20px;
  .foot-finess{
   display: flex;
   justify-content: space-around;
+  margin-top: 40px;
+ }
+ .footer-last{
+  margin-top: 40px;
+  color: beige;
+  gap: 2px;
+ }
+ .p3{
+  margin-top: 40px;
+  font-weight: 300;
  }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
