@@ -224,6 +224,9 @@ border-radius: 20px;
 table, td,  tr{
   border: .5px solid grey;
   border-collapse: collapse;
+  font-size: 14px;
+  padding: 0px 10px;
+  
 }
 .cal-head{
 display: flex;
@@ -232,7 +235,31 @@ justify-content: center;
 justify-items: center;
 align-items: center;
 }
-
+.cal-cantainer{
+  width: 1100px;
+  height: fit-content;
+  margin: 2rem;
+  padding: 2rem;
+  border: 1px solid red;
+}
+.cal-second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9rem;
+  margin: 40px;  
+}
+ .btn-cal{
+  background-color: coral;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 1rem;
+  color: white;
+ }
+ .cal-input{
+  gap: 2rem;
+ }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
   .nav-right{
