@@ -414,7 +414,9 @@ border-radius: 20px;
 .cal-cantainer,
 .cal-head,
 .cal-second,
-.team-img{
+.team-img,
+.foot-container,
+.foot-finess{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   width: 100%;
@@ -425,5 +427,10 @@ border-radius: 20px;
   align-content: center;
   text-align: center;
   margin: 0;
+}
+.foot-finess,
+.get1,
+.get2{
+  margin-top: 20px;
 }
 }
