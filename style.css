@@ -236,7 +236,7 @@ justify-items: center;
 align-items: center;
 }
 .cal-cantainer{
-  width: 900px;
+  width: 90vw;
   height: fit-content;
   margin: 2rem;
   padding: 2rem;
@@ -291,6 +291,7 @@ background-color: rgb(40, 37, 37);
 margin:auto;
 padding: auto;
 width: 90vw;
+border-radius: 20px;
 
  }
 
@@ -309,6 +310,30 @@ width: 90vw;
  .p2{
    position: relative;
    top: -50px;
+ }
+ /* footer style */
+ .get1, .get2{
+  display: flex;
+  flex-direction: column;
+ }
+ .get1 a, .get2 a{
+  text-decoration: none;
+  color: antiquewhite;
+ }
+ .foot-container {
+  display: block;
+  width: 90vw;
+  background-color: rgb(28, 28, 28);
+  justify-content: center;
+  align-self:center;
+  align-content: center;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+ }
+ .foot-finess{
+  display: flex;
+  justify-content: space-around;
  }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
@@ -383,5 +408,6 @@ width: 90vw;
   align-items: center;
   align-content: center;
   text-align: center;
+  margin: 0;
 }
 }
