@@ -220,8 +220,18 @@ border-radius: 20px;
   border-radius: 5px;
   border: none;
 }
-/* training style */
-
+/* calculate style */
+table, td,  tr{
+  border: .5px solid grey;
+  border-collapse: collapse;
+}
+.cal-head{
+display: flex;
+flex-direction: column;
+justify-content: center;
+justify-items: center;
+align-items: center;
+}
 
 /* resposive for mobile */
 @media screen and (max-width: 575px){
