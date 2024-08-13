@@ -62,7 +62,7 @@ border: none;
 .nav-left{
 font-style: italic;
 font-weight: 800;
-color: rgb(230,23,60,1);
+color: coral;
 font-size: 1.6rem;
 margin-left: 15%;
 
@@ -106,7 +106,7 @@ font-size: 1.4rem;
 
 }
 .btn1{
-  background-color: rgb(230,23,60,1);
+  background-color: coral;
   border-radius: 8px;
   padding: 4px;
   border: none;
@@ -191,12 +191,42 @@ padding: 2rem;
   align-items: center;
   text-align: center;
 }
+/* run style */
+.run-img img{
+width: 250px;
+border-radius: 20px;
+
+}
+.run-container{
+  display: flex;
+  width: 500px;
+  height: 200px;
+  padding: 20px 20px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin-left: 20rem;
+  justify-items: center;
+  column-gap: 2rem;
+  background-color: rgb(46, 45, 45);
+  box-shadow: 0 8px 32px 0 (rgb(0, 0, 0, 0.27));
+  border-radius: 40px;
+}
+.btn6{
+  color:white;
+  width: fit-content;
+  padding: 5px 10px;
+  background-color: coral;
+  border-radius: 5px;
+  border: none;
+}
 /* resposive for mobile */
 @media screen and (max-width: 575px){
   .nav-right{
     display: none;
   }
-  .body{
+  .body,
+  .run-container{
     display: flex;
     flex-direction: column;
   }
@@ -238,5 +268,16 @@ padding: 2rem;
 .change-container{
   align-items: center;
   width: 100%;
+}
+.run-container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  row-gap: 1rem;
 }
 }
