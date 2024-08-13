@@ -247,13 +247,16 @@ align-items: center;
   justify-content: center;
   align-items: center;
   gap: 9rem;
-  margin: 40px;  
+  /* margin: 40px;   */
+}
+.from{
+  margin-top: 10%;
 }
  .btn-cal{
   background-color: coral;
   border: none;
   padding: 13px 30px;
-  border-radius: 5px;
+  border-radius: 25px;
   margin: 1rem;
   color: white;
   margin-top: 40px;
@@ -263,6 +266,13 @@ align-items: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr) ;
   border: none;
+ }
+ .chart{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+
  }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
