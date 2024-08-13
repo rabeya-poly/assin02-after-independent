@@ -280,6 +280,19 @@ align-items: center;
   row-gap: 20px;
 
  }
+ /* meet style */
+ .meet-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+background-color: rgb(40, 37, 37);
+margin: 40px;
+padding: 20px;
+width: 1100px;
+
+ }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
   .nav-right{
