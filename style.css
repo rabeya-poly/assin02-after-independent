@@ -288,15 +288,27 @@ align-items: center;
   align-items: center;
   text-align: center;
 background-color: rgb(40, 37, 37);
-margin: 40px;
-padding: 20px;
-width: 1100px;
+margin:auto;
+padding: auto;
+width: 90vw;
 
  }
 
  .team-img{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+
+ }
+ .meet-img img{
+ border-radius: 20px;
+ border: 2px solid grey;
+ }
+ .meet-content{
+     padding: 30px;
+ }
+ .p2{
+   position: relative;
+   top: -50px;
  }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
