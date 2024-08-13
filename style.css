@@ -252,13 +252,17 @@ align-items: center;
  .btn-cal{
   background-color: coral;
   border: none;
-  padding: 5px 20px;
+  padding: 13px 30px;
   border-radius: 5px;
   margin: 1rem;
   color: white;
+  margin-top: 40px;
  }
  .cal-input{
-  gap: 2rem;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+  border: none;
  }
 /* resposive for mobile */
 @media screen and (max-width: 575px){
