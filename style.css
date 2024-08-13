@@ -205,6 +205,9 @@ padding: 2rem;
     height: 100%;
     font-size: 1rem;
   }
+  .nav-left{
+    margin-left: 0%;
+  }
   .icon{
     display: flex;
   }
@@ -231,5 +234,9 @@ padding: 2rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+}
+.change-container{
+  align-items: center;
+  width: 100%;
 }
 }
